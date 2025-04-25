@@ -1,7 +1,7 @@
 # EduGuide Frontend Task - Scholarship Tips & Tricks
 
 ## Live Demo
-
+https://rococo-entremet-32ec95.netlify.app/
 
 ## Description 
 
@@ -19,8 +19,7 @@ This project was built using **HTML**, **CSS** and **JavaScript**, without any f
 
 ## Deployment
 
-Deployed on [Netlify] (), [Github]
-
+Deployed on [Netlify] (https://rococo-entremet-32ec95.netlify.app/), [Github] ()
 Link above
 
 ## Author
