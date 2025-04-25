@@ -1,68 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scholarship Journey</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
-
 <body>
-    <header>
-        <h1>Scholarship Tips & Tricks</h1>
-        <p>Boost your chances with expert Hacks & FAQs</p>
-    </header>
+  <header>
+    <h1>Master Your Scholarship Journey</h1>
+    <p>Discover expert tips, proven strategies, and insider secrets to maximize your chances of winning scholarships.</p>
+    <button>Explore Tips</button>
+  </header>
 
-    <section class="section">
-        <h2>Quick Tips</h2>
-        <div class="grid">
-            <div class="tip-card">Start Early: Begin researching scholarships months in advance.</div>
-            <div class="tip-card">Tailor Your Essay: Customize each application essay.</div>
-            <div class="tip-card">Organise Deadlines: Use a calendar or planner.</div>
-            <div class="tip-card">Request Strong References: Ask Mentors who know you well.</div>
-            <div class="tip-card">Proofread Everything: Eliminate spelling or grammer issues.</div>
-            <div class="tip-card">Apply Widely: Don't put all your eggs in one basket.</div>
-        </div>
-    </section>
+  <section>
+    <h2 style="text-align:center; margin-bottom: 2rem;">Essential Scholarship Tips</h2>
+    <p>Follow these proven stategies to increase your chances of winning scholarships amd funding your education.</p>
+    <div class="tips-grid">
+      <div class="tip-box">
+        <h3>🔍 Research Effectively</h3>
+        <p>Learn to find and filter scholarships that match your profile. Start early and organize your search systematically.</p>
+      </div>
+      <div class="tip-box">
+        <h3>✏ Perfect Your Essays</h3>
+        <p>Craft compelling personal statements that tell your unique story. Get feedback from mentors and peers.</p>
+      </div>
+      <div class="tip-box">
+        <h3>📚 Meet Requirements</h3>
+        <p>Create a checklist for each scholarship. Double-check eligibility criteria and submission deadlines.</p>
+      </div>
+      <div class="tip-box">
+        <h3>💪 Stand Out</h3>
+        <p>Highlight unique experiences and achievements. Focus on what makes you different from other applicants.</p>
+      </div>
+    </div>
 
-    <section class="section">
-        <h2>FAQs</h2>
+    <div class="faq-section">
+      <h2 class="faq-title">❓ Frequently Asked Questions</h2>
+      <p>Get get answers to common questions about scholarship application and improve your chances of success.</p>
 
-        <div class="faq">
-            <h3 onclick="toggleFaq(this)">How do i find scholarships?</h3>
-            <div class="faq-content">Search platforms like FastWeb, Scholarships.com and your school's bulletin.</div>
-        </div>
+      <div class="faq-item">
+        <h4>How do I find scholarships that match my profile? <span>+</span></h4>
+        <div class="faq-answer">Use scholarship platforms, school bulletins, and educational forums to filter relevant opportunities.</div>
+      </div>
+      <div class="faq-item">
+        <h4>When should I start applying for scholarships? <span>+</span></h4>
+        <div class="faq-answer">Start at least 6-12 months in advance. Early applications can give you an edge.</div>
+      </div>
+      <div class="faq-item">
+        <h4>What makes a scholarship application stand out? <span>+</span></h4>
+        <div class="faq-answer">A strong essay, consistent academic record, and clearly aligned goals can make your application shine.</div>
+      </div>
+      <div class="faq-item">
+        <h4>Are there scholarships available for international students? <span>+</span></h4>
+        <div class="faq-answer">Yes! Many institutions offer merit- and need-based aid for international applicants.</div>
+      </div>
+    </div>
+  </section>
 
-        <div class="faq">
-            <h3 onclick="toggleFaq(this)">What makes a great scholarship essay?</h3>
-            <div class="faq-content">Be authentic structured and tie in your goals and passions clearly.</div>
-        </div>
-
-        <div class="faq">
-            <h3 onclick="toggleFaq(this)">Can i reuse essays?</h3>
-            <div class="faq-content">Yes, but always tailor them to match the specific scholarship goals.</div>
-        </div>
-    </section>
-
-    <section class="section">
-        <h2>Step-By-Step: Winning Scholarships</h2>
-
-        <div class="steps">
-            <div class="step">Step 1: Research scholarships regularly</div>
-        </div>
-        <div class="steps">
-            <div class="step">Step 2: Replay core documents early</div>
-        </div>
-        <div class="steps">
-            <div class="step">Step 3: Submit with confidence</div>
-        </div>
-        <div class="steps">
-            <div class="step">Step 4: Follow up or re-apply if needed</div>
-        </div>
-    </section>
-
-    <script src="index.js"></script>
+  <script>
+    document.querySelectorAll(".faq-item").forEach(item => {
+      item.addEventListener("click", () => {
+        item.classList.toggle("active");
+      });
+    });
+  </script>
 </body>
-
 </html>
