@@ -19,7 +19,7 @@ This project was built using **HTML**, **CSS** and **JavaScript**, without any f
 
 ## Deployment
 
-Deployed on [Netlify] (https://rococo-entremet-32ec95.netlify.app/), [Github] ()
+Deployed on [Netlify] (https://rococo-entremet-32ec95.netlify.app/), [Github] (https://github.com/AgCode18/Assignment)
 Link above
 
 ## Author
