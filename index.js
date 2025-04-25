@@ -1,5 +1,5 @@
-function toggleFaq(header) {
-    const content = header.nextElementSibling;
-    const isVisible = content.style.display === 'block';
-    content.style.display = isVisible ? 'none': 'block';
-}
+document.querySelectorAll(".faq-item").forEach(item => {
+    item.addEventListener("click", () => {
+      item.classList.toggle("active");
+    });
+  });
